@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<xml-bindings
+    xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/oxm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    version="2.3"
+    package-name="com.endplay.feeds.jobs.dto"
+    xml-mapping-metadata-complete="true">
+    <xml-schema
+        namespace="http://www.w3.org/2005/Atom"
+        element-form-default="QUALIFIED">
+        <xml-ns prefix="apcm" namespace-uri="http://ap.org/schemas/03/2005/apcm"/>
+        <xml-ns prefix="apnm" namespace-uri="http://ap.org/schemas/03/2005/apnm"/>
+        <xml-ns prefix="georss" namespace-uri="http://www.georss.org/georss"/>
+        <xml-ns prefix="e" namespace-uri=""/>
+    </xml-schema>
+    <java-types>
+        <java-type name="FeedStoryDTO" xml-accessor-type="NONE" >
+            <java-attributes>
+                <xml-element java-attribute="externalStoryId" xml-path="apnm:NewsManagement/apnm:ManagementId/text()"/>
+                <xml-element java-attribute="headline" xml-path="content/e:nitf/e:body/e:body.head/e:hedline/e:hl2[@id='originalHeadline']/text()"/>
+                <xml-element java-attribute="shortHeadline" xml-path="content/e:nitf/e:body/e:body.head/e:hedline/e:hl1[@id='headline']/text()"/>
+                <xml-any-element java-attribute="body"
+                    xml-path="content/e:nitf/e:body/e:body.content"
+                    dom-handler="com.endplay.feeds.jobs.domhandler.BodyDomHandler"/>
+                <xml-transformation java-attribute="byLine">
+                    <xml-read-transformer transformer-class="com.endplay.feeds.jobs.transformer.MultiStringTransformer"/>
+                    <xml-write-transformer xml-path="content/e:nitf/e:body/e:body.head/e:byline/text()" transformer-class="com.endplay.feeds.jobs.transformer.MultiStringTransformer"/>
+                    <xml-write-transformer xml-path="content/e:nitf/e:body/e:body.head/e:byline/e:byttl/text()" transformer-class="com.endplay.feeds.jobs.transformer.MultiStringTransformer"/>
+                </xml-transformation>
+                <xml-transformation java-attribute="additionalAuthor">
+                    <xml-read-transformer transformer-class="com.endplay.feeds.jobs.transformer.MultiStringTransformer"/>
+                    <xml-write-transformer xml-path="content/e:nitf/e:body/e:body.head/e:byline/text()" transformer-class="com.endplay.feeds.jobs.transformer.MultiStringTransformer"/>
+                    <xml-write-transformer xml-path="content/e:nitf/e:body/e:body.head/e:byline/e:byttl/text()" transformer-class="com.endplay.feeds.jobs.transformer.MultiStringTransformer"/>
+                </xml-transformation>
+                <xml-element java-attribute="catCollection" xml-list="true" xml-path="apcm:ContentMetadata/apcm:SubjectClassification[@Authority='AP Category Code']/@Value"/>
+                <xml-element java-attribute="keywords" xml-path="apcm:ContentMetadata/apcm:Keywords/text()"/>
+                <xml-element java-attribute="author" xml-path="author/name/text()"/>
+                <xml-element java-attribute="title" name="title"/>
+                <xml-element java-attribute="copyright" name="rights"/>
+                <xml-element java-attribute="publishedDate" name="published"/>
+            </java-attributes>
+        </java-type>
+        <java-type name="InBoundWireFeedDTO" xml-accessor-type="NONE">
+            <xml-root-element name="feed"/>
+            <java-attributes>
+                <xml-element java-attribute="id" name="id"/>
+                <xml-attribute java-attribute="lastRetrivedArticleId" xml-path="apcm:Property[@Name='FeedProperties']/apcm:Property[@Name='FeedSequencing']/apcm:Property[@Name='sequenceNumber']/@Id"/>
+                <xml-element java-attribute="updated" xml-path="apcm:Property[@Name='FeedProperties']/apcm:Property[@Name='FeedSequencing']/apcm:Property[@Name='minDateTime']/@Value"/>
+                <xml-element java-attribute="entries" name="entry" type="com.endplay.feeds.jobs.dto.FeedStoryDTO" container-type="java.util.ArrayList"/>
+            </java-attributes>
+        </java-type>
+    </java-types>
+</xml-bindings>

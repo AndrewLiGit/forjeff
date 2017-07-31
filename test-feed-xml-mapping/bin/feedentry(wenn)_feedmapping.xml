@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<xml-bindings
+    xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/oxm"
+    package-name="com.endplay.feeds.jobs.dto"
+    xml-mapping-metadata-complete="true">
+     <xml-schema
+        namespace="http://www.w3.org/2005/Atom" 
+        element-form-default="QUALIFIED">
+    </xml-schema>
+    <java-types>
+        <java-type name="FeedEntry">
+            <xml-virtual-access-methods set-method="put"/>
+            <xml-root-element name="feed"/>
+            <java-attributes>
+                <!-- InBoundWireFeedDTO -->
+                    
+                <!-- FeedStoryDTO -->
+                <xml-element java-attribute="headline" xml-path="entry/title/text()"/>
+
+                <xml-transformation java-attribute="headline">
+                    <xml-read-transformer transformer-class="com.endplay.feeds.jobs.transformer.MultiStringTransformer"/>
+                    <xml-write-transformer xml-path="entry/title/text()" transformer-class="com.endplay.feeds.jobs.transformer.MultiStringTransformer"/>
+                </xml-transformation>
+
+
+              </java-attributes>
+        </java-type>
+        
+    </java-types>
+</xml-bindings>

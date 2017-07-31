@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xml-bindings
+    xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/oxm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    version="2.3"
+    package-name="com.endplay.feeds.jobs.dto"
+    xml-mapping-metadata-complete="true">
+    <xml-schema>
+
+    </xml-schema>
+    <java-types>
+    	<java-type name="FeedEntry" xml-accessor-type="NONE">
+            <xml-root-element name="nodes" />
+            <xml-virtual-access-methods set-method="put"/>
+            <java-attributes>
+            
+                <!-- MigrationDTO -->
+				<xml-element java-attribute="entries" name="node" type="com.endplay.feeds.jobs.dto.FeedEntry" container-type="java.util.ArrayList"/>
+			    
+			    <xml-element java-attribute="entryTitle" xml-path="title/text()"></xml-element>
+			    <xml-element java-attribute="entryLink" xml-path="path/text()"></xml-element>
+			    <xml-element java-attribute="publishDate" xml-path="pubDate/text()"></xml-element>
+			    <xml-element java-attribute="body" xml-path="body/text()" ></xml-element>
+			    <xml-element java-attribute="postId" xml-path="nid/text()"></xml-element>
+			    <xml-element java-attribute="entryCategorys" name="category" xml-list="true" container-type="java.util.ArrayList"></xml-element>
+			    <xml-element java-attribute="attachmentUrl" xml-path="image/text()"></xml-element>
+			    <xml-element java-attribute="authors" name="byline" />
+			    
+
+            </java-attributes>
+        </java-type>
+    </java-types>
+</xml-bindings>

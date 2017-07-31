@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xml-bindings
+    xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/oxm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    version="2.3"
+    package-name="com.endplay.feeds.jobs.dto"
+    xml-mapping-metadata-complete="true">
+    <xml-schema
+        element-form-default="QUALIFIED">
+        <xml-ns prefix="content" namespace-uri="http://purl.org/rss/1.0/modules/content/"/>
+        <xml-ns prefix="wfw" namespace-uri="http://wellformedweb.org/CommentAPI/"/>
+        <xml-ns prefix="dc" namespace-uri="http://purl.org/dc/elements/1.1/"/>
+        <xml-ns prefix="atom" namespace-uri="http://www.w3.org/2005/Atom"/>
+        <xml-ns prefix="sy" namespace-uri="http://purl.org/rss/1.0/modules/syndication/"/>
+        <xml-ns prefix="slash" namespace-uri="http://purl.org/rss/1.0/modules/slash/"/>
+    </xml-schema>
+    <java-types>
+        <java-type name="FeedEntry" xml-accessor-type="NONE">
+            <xml-root-element name="rss"/>
+            <xml-type prop-order="title"/>
+            <xml-virtual-access-methods set-method="put"/>
+            <java-attributes>
+                <xml-element java-attribute="title" name="channel/title"/>
+
+                <xml-element java-attribute="entries" name="channel/item" type="com.endplay.feeds.jobs.dto.FeedEntry" container-type="java.util.ArrayList"/>
+                    <xml-element java-attribute="headline" xml-path="title/text()"/>
+                    <xml-element java-attribute="externalStoryId" xml-path="guid/text()"/>
+            </java-attributes>
+        </java-type>
+    </java-types>
+</xml-bindings>

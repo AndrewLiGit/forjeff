@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:apcm="http://ap.org/schemas/03/2005/apcm" xmlns:apnm="http://ap.org/schemas/03/2005/apnm" xmlns:georss="http://www.georss.org/georss" xmlns:o="http://w3.org/ns/odrl/2/">
+  <id>urn:publicid:ap.org:595761</id>
+  <title type="xhtml">
+    <apxh:div xmlns:apxh="http://www.w3.org/1999/xhtml">
+      <apxh:span>WEWS AP Feed</apxh:span>
+    </apxh:div>
+  </title>
+  <apcm:Property Name="FeedProperties">
+    <apcm:Property Name="Entitlement" Id="urn:publicid:ap.org:savedsearch:595761" Value="WEWS AP Feed" />
+    <apcm:Property Name="FeedSequencing">
+      <apcm:Property Name="sequenceNumber" Id="306027377" />
+      <apcm:Property Name="minDateTime" Value="2014-09-20T03:28:08.323Z" />
+    </apcm:Property>
+  </apcm:Property>
+  <updated>2014-09-20T03:28:08.323Z</updated>
+  <author>
+    <name>The Associated Press</name>
+    <uri>http://www.ap.org</uri>
+  </author>
+  <rights>Copyright 2014 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</rights>
+  <link rel="self" href="http://syndication.ap.org/AP.Distro.Feed/GetFeed.aspx?idList=595761&amp;idListType=savedsearches&amp;fullContent=true&amp;sortOrder=chronological" />
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:publicid:ap.org:23ccb7ca20ef4c7e88c34c0ca819e1af</id>
+  <title>US--Police Barracks Shooting</title>
+  <updated>2014-09-20T03:02:37.350Z</updated>
+  <published>2014-09-20T03:02:27Z</published>
+  <author>
+    <name>AP</name>
+  </author>
+  <rights>Copyright 2014 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</rights>
+  <content type="text/xml">
+    <nitf version="-//IPTC//DTD NITF 3.4//EN" change.date="October 18, 2006" change.time="19:30" xmlns="">
+      <head>
+        <docdata>
+          <doc-id regsrc="AP" />
+          <date.issue norm="20140920T030227Z" />
+          <ed-msg info="Eds: APNewsNow. Updates with 911 dispatcher confirming that shots were fired. Will be updated. AP Video. With AP Photos." />
+          <doc.rights owner="http://www.ap.org" agent="http://license.icopyright.net" type="none" />
+          <doc.copyright holder="AP" year="2014" />
+        </docdata>
+      </head>
+      <body>
+        <body.head>
+          <hedline>
+            <hl1 id="headline">Travelers asked to avoid ambush suspect hunt area</hl1>
+            <hl2 id="originalHeadline">Travelers asked to avoid ambush suspect hunt area</hl2>
+          </hedline>
+          <byline>MICHAEL RUBINKAM<byttl>Associated Press</byttl></byline>
+          <byline>KATHY MATHESON<byttl>Associated Press</byttl></byline>
+          <distributor>The Associated Press</distributor>
+          <dateline>
+            <location>BLOOMING GROVE, Pa.</location>
+          </dateline>
+        </body.head>
+        <body.content>
+          <block id="Main">
+              <p>BLOOMING GROVE, Pa. (AP) — The area of northeastern Pennsylvania where a manhunt for the suspect in a trooper ambush is underway remains cordoned off with a heavy police presence after shots were reported earlier in the evening.</p>
+              <p>A Monroe County 911 dispatcher says shots were fired around 6:40 p.m. Friday. She had no further information.</p>
+              <p>State police advised residents in Price and Barrett townships to stay inside and said others should avoid the area.</p>
+              <p>Police are searching for the Eric Frein (freen), the self-taught survivalist accused in last week's deadly ambush at a state police barracks.</p>
+              <p>As many as 200 officers at a time are trying to flush 31-year-old Frein out of the dense, boggy woodlands where he's believed to be keeping out of sight. Frein lived in Monroe County with his parents.</p>
+            </block>
+        </body.content>
+        <body.end />
+      </body>
+    </nitf>
+  </content>
+  <link rel="alternate" title="AP Article" href="http://www.apnewsarchive.com/2014/Travelers-asked-to-avoid-area-where-hunt-for-suspect-in-troopers'-ambush-is-underway/id-a6fcf7ce3e2b497b8f34054c6f23b4e0" />
+  <apcm:ContentMetadata xmlns:apcm="http://ap.org/schemas/03/2005/apcm">
+    <apcm:DateLineLocation City="Blooming Grove" Country="USA" CountryArea="PA" CountryAreaName="Pennsylvania" CountryName="United States" />
+    <apcm:Priority Numeric="4" Legacy="r" />
+    <apcm:ConsumerReady>TRUE</apcm:ConsumerReady>
+    <apcm:ByLine Title="Associated Press">By MICHAEL RUBINKAM and KATHY MATHESON</apcm:ByLine>
+    <apcm:DateLine>BLOOMING GROVE, Pa.</apcm:DateLine>
+    <apcm:ExtendedHeadLine>Travelers asked to avoid area where hunt for suspect in troopers' ambush is underway</apcm:ExtendedHeadLine>
+    <apcm:HeadLine>Travelers asked to avoid ambush suspect hunt area</apcm:HeadLine>
+    <apcm:OriginalHeadLine>Travelers asked to avoid ambush suspect hunt area</apcm:OriginalHeadLine>
+    <apcm:Keywords>US--Police Barracks Shooting</apcm:Keywords>
+    <apcm:Cycle>BC</apcm:Cycle>
+    <apcm:Selector>gaga-</apcm:Selector>
+    <apcm:LegacyTypeSetFormat>bx</apcm:LegacyTypeSetFormat>
+    <apcm:TransmissionReference>g6043</apcm:TransmissionReference>
+    <apcm:SlugLine>BC-US--Police Barracks Shooting,11th Ld</apcm:SlugLine>
+    <apcm:DistributionScope>National</apcm:DistributionScope>
+    <apcm:DistributionScope>State</apcm:DistributionScope>
+    <apcm:ContentElement>FastStory</apcm:ContentElement>
+    <apcm:MediaType>Text</apcm:MediaType>
+    <apcm:SubjectClassification Authority="AP Category Code" Value="a" Id="a" />
+    <apcm:SubjectClassification Authority="AP Subject" Value="General news" Id="f25af2d07e4e100484f5df092526b43e" />
+    <apcm:SubjectClassification Authority="AP Subject" Value="Violent crime" Id="13c6a480899b10048b9dd56c852d093e" />
+    <apcm:SubjectClassification Authority="AP Subject" Value="Crime" Id="48612b807c2b4b93bbbacbf54f547ad5" />
+    <apcm:ItemContentType>Spot Development</apcm:ItemContentType>
+    <apcm:Source>AP</apcm:Source>
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:product:32710" Value="Broadcast News Separates - National" />
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:product:32711" Value="Broadcast National Newspaper News - Domestic News" />
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:package:100215" Value="Broadcast - National APTV" />
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:package:100216" Value="Broadcast - National Newspower" />
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:savedsearch:595761" Value="WEWS AP Feed" />
+    <apcm:Property Name="SequenceNumber" Value="InSequence" Id="306024222" />
+    <apcm:FirstCreated>2014-09-20T03:02:26Z</apcm:FirstCreated>
+  </apcm:ContentMetadata>
+  <apnm:NewsManagement xmlns:apnm="http://ap.org/schemas/03/2005/apnm">
+    <apnm:ManagementId>urn:publicid:ap.org:a6fcf7ce3e2b497b8f34054c6f23b4e0</apnm:ManagementId>
+    <apnm:ManagementSequenceNumber>0</apnm:ManagementSequenceNumber>
+    <apnm:PublishingStatus>Usable</apnm:PublishingStatus>
+    <apnm:PublishingSpecialInstructions>Eds: APNewsNow. Updates with 911 dispatcher confirming that shots were fired. Will be updated. AP Video. With AP Photos.</apnm:PublishingSpecialInstructions>
+    <apnm:PublishingReleaseDateTime>2014-09-20T03:02:21Z</apnm:PublishingReleaseDateTime>
+    <apnm:LegacyNewsManagement>
+      <apnm:LegacyType>ANPA1312+NAA89-3</apnm:LegacyType>
+      <apnm:LegacyManagementType Value="Lead">
+        <apnm:TypeSupportingData DataType="LeadNumber">11</apnm:TypeSupportingData>
+      </apnm:LegacyManagementType>
+    </apnm:LegacyNewsManagement>
+  </apnm:NewsManagement>
+</entry>
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:publicid:ap.org:7aee6e5f7b70400c96e75701b57f5e5e</id>
+  <title>US--Police Barracks Shooting</title>
+  <updated>2014-09-20T03:06:04.300Z</updated>
+  <published>2014-09-20T03:05:49Z</published>
+  <author>
+    <name>AP</name>
+  </author>
+  <rights>Copyright 2014 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</rights>
+  <content type="text/xml">
+    <nitf version="-//IPTC//DTD NITF 3.4//EN" change.date="October 18, 2006" change.time="19:30" xmlns="">
+      <head>
+        <docdata>
+          <doc-id regsrc="AP" />
+          <date.issue norm="20140920T030549Z" />
+          <ed-msg info="Eds: Restores background. AP Video. With AP Photos." />
+          <doc.rights owner="http://www.ap.org" agent="http://license.icopyright.net" type="none" />
+          <doc.copyright holder="AP" year="2014" />
+        </docdata>
+      </head>
+      <body>
+        <body.head>
+          <hedline>
+            <hl1 id="headline">Ambush suspect could be aided by dense woods</hl1>
+            <hl2 id="originalHeadline">Ambush suspect could be aided by dense woods</hl2>
+          </hedline>
+          <byline>MICHAEL RUBINKAM<byttl>Associated Press</byttl></byline>
+          <byline>KATHY MATHESON<byttl>Associated Press</byttl></byline>
+          <distributor>The Associated Press</distributor>
+          <dateline>
+            <location>BLOOMING GROVE, Pa.</location>
+          </dateline>
+        </body.head>
+        <body.content>
+          <block id="Main">
+              <p>BLOOMING GROVE, Pa. (AP) — He could be anywhere. Crouching behind boulders the size of tractor trailers, as one outdoorsman put it. Concealing himself in a cave. Taking cover in thick brush.</p>
+              <p>With tens of thousands of acres of undisturbed northeastern Pennsylvania forest offering ample opportunity to hide, the self-taught survivalist accused in last week's deadly ambush at a state police barracks has avoided capture.</p>
+              <p>Not that authorities aren't looking hard. As many as 200 officers at a time are trying to flush 31-year-old Eric Frein out of the dense, boggy woodlands where he's believed to be.</p>
+              <p>Those woods are "a tremendous place to hide," said Patrick Patten, who owns a school that teaches law enforcement officials how to track suspects in the forest.</p>
+              <p>One week after Cpl. Bryon Dickson was gunned down and a second trooper was wounded by a gunman with a high-powered rifle, police say they are methodically eliminating places where Frein could take refuge, including hunting cabins, campsites and vacation homes in the Pocono Mountains.</p>
+              <p>It's difficult. The terrain in this area of Pennsylvania is so impenetrable in spots that police choppers can't see through the forest canopy. The suspect also has his pick of places to break into and steal food. Pike County alone boasts more than 14,000 seasonal or recreational homes.</p>
+              <p>Pumping gas Friday, Pike County resident Angela Disilvestre recognized the challenge.</p>
+              <p>"Even though we have our troopers around and doing what they need to do, it's hard for them to be in so many places at once," she said.</p>
+              <p>Frein, publicly identified as a suspect Tuesday, is already drawing comparisons to Eric Rudolph, the 1996 Atlanta Olympics bomber who eluded authorities for years in the woods of western North Carolina.</p>
+              <p>Like Frein, Rudolph was described as an anti-government survivalist who lived off the land, but authorities say one of his earliest moves after going on the run in 1998 was to swipe a six-month supply of food and a pickup truck from a neighbor's house. He left the man $500.</p>
+              <p>Today, authorities in Pennsylvania believe Frein is hiding in the forests near his hometown of Canadensis and the state police barracks in Blooming Grove where authorities say he killed Dickson and wounded Trooper Alex Douglass. Shots were fired in the area around 6:40 p.m. Friday, a Monroe County 911 dispatcher said. State police told residents in the townships of Price and Barrett to stay inside and asked others not to travel to the area because of police activity.</p>
+              <p>It's a place of rugged beauty, a tourist draw and nature lover's paradise with more than 120,000 acres of federal and state land for hunting, fishing, hiking and boating.</p>
+              <p>Now wanted posters are plastered everywhere — at motel counters, in convenience store doors and on lottery kiosks and digital billboards. Schools closed again Friday.</p>
+              <p>While any police pursuit of an armed suspect is inherently unsafe, the forest poses a special risk, Patten said.</p>
+              <p>"What makes it so dangerous is that the subject is uncontained," said Patten, founder of Tactical Woodland Operations School and a lead tracker in the Rudolph case. "In the woodland environment you don't even know where the person is."</p>
+              <p>Police have said Frein nurses an unspecified grudge against law enforcement and government. Authorities say they consider it unlikely he will target the public.</p>
+              <p>But a week into the manhunt, residents were taking precautions.</p>
+              <p>Susan Czahor, 48, of Tafton, said Friday she has been sleeping with a gun. Her husband, a contractor, has stopped work on an isolated house in the woods and won't return until Frein is caught.</p>
+              <p>"I think the fact that law enforcement is having such a difficult time finding him makes everybody a little more concerned," she said, "because this is a very large area that isn't inhabited year-round and full-time. There (are) a lot of places for him to hide."</p>
+              <p>At the Tuck-em Inn — near the edge of state game lands where Frein could have made his escape — proprietor Sue Goble began telling guests to keep their car doors locked.</p>
+              <p>Kathy Coyne, 74, is Goble's tenant and a New York City native who followed her three daughters to the Poconos more than a decade ago.</p>
+              <p>"I'm worried, but I'm not going to let it get the best of me," Coyne said. "I'm going to bingo tonight."</p>
+              <p>___</p>
+              <p>Matheson reported from Philadelphia. AP video journalist Joseph Frederick in Hawley and AP reporter Sean Carlin in Philadelphia contributed to this story.</p>
+            </block>
+        </body.content>
+        <body.end />
+      </body>
+    </nitf>
+  </content>
+  <link rel="alternate" title="AP Article" href="http://www.apnewsarchive.com/2014/Suspect-in-troopers'-ambush-could-be-aided-by-rugged-terrain-in-northeastern-Pennsylvania/id-a6fcf7ce3e2b497b8f34054c6f23b4e0" />
+  <apcm:ContentMetadata xmlns:apcm="http://ap.org/schemas/03/2005/apcm">
+    <apcm:DateLineLocation City="Blooming Grove" Country="USA" CountryArea="PA" CountryAreaName="Pennsylvania" CountryName="United States" />
+    <apcm:Priority Numeric="4" Legacy="r" />
+    <apcm:ConsumerReady>TRUE</apcm:ConsumerReady>
+    <apcm:ByLine Title="Associated Press">By MICHAEL RUBINKAM and KATHY MATHESON</apcm:ByLine>
+    <apcm:DateLine>BLOOMING GROVE, Pa.</apcm:DateLine>
+    <apcm:ExtendedHeadLine>Suspect in troopers' ambush could be aided by rugged terrain in northeastern Pennsylvania</apcm:ExtendedHeadLine>
+    <apcm:HeadLine>Ambush suspect could be aided by dense woods</apcm:HeadLine>
+    <apcm:OriginalHeadLine>Ambush suspect could be aided by dense woods</apcm:OriginalHeadLine>
+    <apcm:Keywords>US--Police Barracks Shooting</apcm:Keywords>
+    <apcm:Cycle>BC</apcm:Cycle>
+    <apcm:Selector>papa-</apcm:Selector>
+    <apcm:LegacyTypeSetFormat>bx</apcm:LegacyTypeSetFormat>
+    <apcm:TransmissionReference>d0307</apcm:TransmissionReference>
+    <apcm:SlugLine>BC-US--Police Barracks Shooting,12th Ld-Writethru</apcm:SlugLine>
+    <apcm:DistributionScope>State</apcm:DistributionScope>
+    <apcm:DistributionScope>National</apcm:DistributionScope>
+    <apcm:ContentElement>FullStory</apcm:ContentElement>
+    <apcm:MediaType>Text</apcm:MediaType>
+    <apcm:EntityClassification Authority="AP Party" Value="Eric Rudolph" Id="42c590e86fb641e2913aa1b266f66c77">
+      <apcm:Property Id="2be254708ee010048bc8a55c96277d3e" Name="PartyType" Value="NEWSMAKER" />
+      <apcm:Property Id="d188b8b8886b100481accb8225d5863e" Name="PartyType" Value="PERSON" />
+    </apcm:EntityClassification>
+    <apcm:EntityClassification Authority="AP Geography" Value="Pennsylvania" Id="0b394d7082c71004887fdf092526b43e" />
+    <apcm:EntityClassification Authority="AP Geography" Value="Philadelphia" Id="134f051882c710048891df092526b43e" />
+    <apcm:EntityClassification Authority="AP Geography" Value="United States" Id="661e48387d5b10048291c076b8e3055c" />
+    <apcm:EntityClassification Authority="AP Geography" Value="North America" Id="661850e07d5b100481f7c076b8e3055c" />
+    <apcm:SubjectClassification Authority="AP Category Code" Value="a" Id="a" />
+    <apcm:SubjectClassification Authority="AP Subject" Value="General news" Id="f25af2d07e4e100484f5df092526b43e" />
+    <apcm:SubjectClassification Authority="AP Subject" Value="Forests" Id="32f6ce4087aa10048a5be9f06a797907" />
+    <apcm:SubjectClassification Authority="AP Subject" Value="Environment and nature" Id="8783d248894710048286ba0a2b2ca13e" />
+    <apcm:SubjectClassification Authority="AP Subject" Value="Violent crime" Id="13c6a480899b10048b9dd56c852d093e" />
+    <apcm:SubjectClassification Authority="AP Subject" Value="Crime" Id="48612b807c2b4b93bbbacbf54f547ad5" />
+    <apcm:ItemContentType>Spot Development</apcm:ItemContentType>
+    <apcm:Source>AP</apcm:Source>
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:product:32711" Value="Broadcast National Newspaper News - Domestic News" />
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:package:100215" Value="Broadcast - National APTV" />
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:savedsearch:595761" Value="WEWS AP Feed" />
+    <apcm:Property Name="SequenceNumber" Value="InSequence" Id="306024499" />
+    <apcm:FirstCreated>2014-09-20T03:05:48Z</apcm:FirstCreated>
+  </apcm:ContentMetadata>
+  <apnm:NewsManagement xmlns:apnm="http://ap.org/schemas/03/2005/apnm">
+    <apnm:ManagementId>urn:publicid:ap.org:a6fcf7ce3e2b497b8f34054c6f23b4e0</apnm:ManagementId>
+    <apnm:ManagementSequenceNumber>9</apnm:ManagementSequenceNumber>
+    <apnm:PublishingStatus>Usable</apnm:PublishingStatus>
+    <apnm:PublishingSpecialInstructions>Eds: Restores background. AP Video. With AP Photos.</apnm:PublishingSpecialInstructions>
+    <apnm:PublishingReleaseDateTime>2014-09-20T03:05:41Z</apnm:PublishingReleaseDateTime>
+    <apnm:LegacyNewsManagement>
+      <apnm:LegacyType>ANPA1312+NAA89-3</apnm:LegacyType>
+      <apnm:LegacyManagementType Value="Lead">
+        <apnm:TypeSupportingData DataType="LeadNumber">12</apnm:TypeSupportingData>
+      </apnm:LegacyManagementType>
+    </apnm:LegacyNewsManagement>
+  </apnm:NewsManagement>
+</entry>
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:publicid:ap.org:12c547c2b3c743919d60273cae6c2631</id>
+  <title>US-APNewsAlert</title>
+  <updated>2014-09-20T03:19:24.523Z</updated>
+  <published>2014-09-20T03:19:12Z</published>
+  <author>
+    <name>AP</name>
+  </author>
+  <rights>Copyright 2014 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</rights>
+  <content type="text/xml">
+    <nitf version="-//IPTC//DTD NITF 3.4//EN" change.date="October 18, 2006" change.time="19:30" xmlns="">
+      <head>
+        <docdata>
+          <doc-id regsrc="AP" />
+          <date.issue norm="20140920T031912Z" />
+          <doc.rights owner="http://www.ap.org" agent="http://license.icopyright.net" type="none" />
+          <doc.copyright holder="AP" year="2014" />
+        </docdata>
+      </head>
+      <body>
+        <body.head>
+          <hedline>
+            <hl1 id="headline">Secret Service says fence-jumper made it through North Portico doors of White House</hl1>
+            <hl2 id="originalHeadline">Secret Service says fence-jumper made it through North Portico doors of White House</hl2>
+          </hedline>
+          <distributor>The Associated Press</distributor>
+          <dateline>
+            <location>WASHINGTON</location>
+          </dateline>
+        </body.head>
+        <body.content>
+          <block id="Main">
+              <p>WASHINGTON (AP) — Secret Service says fence-jumper made it through North Portico doors of White House.</p>
+            </block>
+        </body.content>
+        <body.end />
+      </body>
+    </nitf>
+  </content>
+  <link rel="alternate" title="AP Article" href="http://www.apnewsarchive.com/2014/Secret-Service-says-fence-jumper-made-it-through-North-Portico-doors-of-White-House/id-f654192a96314db585983ed6c715e964" />
+  <apcm:ContentMetadata xmlns:apcm="http://ap.org/schemas/03/2005/apcm">
+    <apcm:DateLineLocation City="Washington" Country="USA" CountryArea="DC" CountryAreaName="District of Columbia" CountryName="United States" />
+    <apcm:Priority Numeric="2" Legacy="b" />
+    <apcm:ConsumerReady>TRUE</apcm:ConsumerReady>
+    <apcm:DateLine>WASHINGTON</apcm:DateLine>
+    <apcm:ExtendedHeadLine>Secret Service says fence-jumper made it through North Portico doors of White House</apcm:ExtendedHeadLine>
+    <apcm:HeadLine>Secret Service says fence-jumper made it through North Portico doors of White House</apcm:HeadLine>
+    <apcm:OriginalHeadLine>Secret Service says fence-jumper made it through North Portico doors of White House</apcm:OriginalHeadLine>
+    <apcm:Keywords>US-APNewsAlert</apcm:Keywords>
+    <apcm:Cycle>BC</apcm:Cycle>
+    <apcm:Selector>1nt--</apcm:Selector>
+    <apcm:LegacyTypeSetFormat>bx</apcm:LegacyTypeSetFormat>
+    <apcm:TransmissionReference>V2100</apcm:TransmissionReference>
+    <apcm:SlugLine>BC-US--APNewsAlert</apcm:SlugLine>
+    <apcm:ContentElement>NewsAlert</apcm:ContentElement>
+    <apcm:MediaType>Text</apcm:MediaType>
+    <apcm:EntityClassification Authority="AP Organization" Value="United States government" Id="898f52e08921100480efba0a2b2ca13e" />
+    <apcm:EntityClassification Authority="AP Organization" Value="U.S. Secret Service" Id="e5cf0f208bcc100480dbeb438e258b03" />
+    <apcm:SubjectClassification Authority="AP Category Code" Value="w" Id="w" />
+    <apcm:SubjectClassification Authority="AP Subject" Value="Government and politics" Id="86aad5207dac100488ecba7fa5283c3e" />
+    <apcm:SubjectClassification Authority="AP Subject" Value="Law enforcement agencies" Id="a37eab90831510048fcfdf092526b43e" />
+    <apcm:ItemContentType>Spot Development</apcm:ItemContentType>
+    <apcm:Source>AP</apcm:Source>
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:product:32710" Value="Broadcast News Separates - National" />
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:product:38227" Value="Broadcast NewsAlert" />
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:package:100216" Value="Broadcast - National Newspower" />
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:savedsearch:595761" Value="WEWS AP Feed" />
+    <apcm:Property Name="SequenceNumber" Value="InSequence" Id="306026657" />
+    <apcm:FirstCreated>2014-09-20T03:19:11Z</apcm:FirstCreated>
+  </apcm:ContentMetadata>
+  <apnm:NewsManagement xmlns:apnm="http://ap.org/schemas/03/2005/apnm">
+    <apnm:ManagementId>urn:publicid:ap.org:f654192a96314db585983ed6c715e964</apnm:ManagementId>
+    <apnm:ManagementSequenceNumber>0</apnm:ManagementSequenceNumber>
+    <apnm:PublishingStatus>Usable</apnm:PublishingStatus>
+    <apnm:PublishingReleaseDateTime>2014-09-20T03:19:08Z</apnm:PublishingReleaseDateTime>
+  </apnm:NewsManagement>
+</entry>
+<entry xmlns="http://www.w3.org/2005/Atom">
+  <id>urn:publicid:ap.org:de14c90d1aad43bfb9eb77e25fc66d75</id>
+  <title>US--White House-Fence Jumper</title>
+  <updated>2014-09-20T03:28:08.323Z</updated>
+  <published>2014-09-20T03:28:02Z</published>
+  <author>
+    <name>AP</name>
+  </author>
+  <rights>Copyright 2014 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</rights>
+  <content type="text/xml">
+    <nitf version="-//IPTC//DTD NITF 3.4//EN" change.date="October 18, 2006" change.time="19:30" xmlns="">
+      <head>
+        <docdata>
+          <doc-id regsrc="AP" />
+          <date.issue norm="20140920T032802Z" />
+          <ed-msg info="Eds: APNewsNow. Updates with individual making it into the White House. Will be updated. With AP Photos." />
+          <doc.rights owner="http://www.ap.org" agent="http://license.icopyright.net" type="none" />
+          <doc.copyright holder="AP" year="2014" />
+        </docdata>
+      </head>
+      <body>
+        <body.head>
+          <hedline>
+            <hl1 id="headline">Fence-jumper makes it into the White House</hl1>
+            <hl2 id="originalHeadline">Fence-jumper makes it into the White House</hl2>
+          </hedline>
+          <byline>JOSH LEDERMAN<byttl>Associated Press</byttl></byline>
+          <distributor>The Associated Press</distributor>
+          <dateline>
+            <location>WASHINGTON</location>
+          </dateline>
+        </body.head>
+        <body.content>
+          <block id="Main">
+              <p>WASHINGTON (AP) — The U.S. Secret Service says a man who jumped over the White House fence made it just past the front doors before being apprehended.</p>
+              <p>Secret Service spokesman Ed Donovan says a 42-year-old man jumped the North Fence and ran toward the White House, but appeared to officers to be unarmed. He was apprehended just inside the North Portico doors of the presidential residence.</p>
+              <p>President Barack Obama and his family were not at home at the time of the incident.</p>
+              <p>Donovan says the man is under arrest and was transported to a Washington hospital because he complained of chest pain.</p>
+              <p>The incident prompted a rare evacuation of much of the White House.</p>
+            </block>
+        </body.content>
+        <body.end />
+      </body>
+    </nitf>
+  </content>
+  <link rel="alternate" title="AP Article" href="http://www.apnewsarchive.com/2014/Fence-jumper-makes-it-through-of-White-House-doors,-prompting-evacuation-and-apprehension/id-70090fd2bd2f45468ba6b3ccd0185fe8" />
+  <apcm:ContentMetadata xmlns:apcm="http://ap.org/schemas/03/2005/apcm">
+    <apcm:DateLineLocation City="Washington" Country="USA" CountryArea="DC" CountryAreaName="District of Columbia" CountryName="United States" />
+    <apcm:Priority Numeric="3" Legacy="u" />
+    <apcm:ConsumerReady>TRUE</apcm:ConsumerReady>
+    <apcm:PriorityLine>Urgent</apcm:PriorityLine>
+    <apcm:ByLine Title="Associated Press">By JOSH LEDERMAN</apcm:ByLine>
+    <apcm:DateLine>WASHINGTON</apcm:DateLine>
+    <apcm:ExtendedHeadLine>Fence-jumper makes it through of White House doors, prompting evacuation and apprehension</apcm:ExtendedHeadLine>
+    <apcm:HeadLine>Fence-jumper makes it into the White House</apcm:HeadLine>
+    <apcm:OriginalHeadLine>Fence-jumper makes it into the White House</apcm:OriginalHeadLine>
+    <apcm:Keywords>US--White House-Fence Jumper</apcm:Keywords>
+    <apcm:Cycle>BC</apcm:Cycle>
+    <apcm:Selector>1nt--</apcm:Selector>
+    <apcm:LegacyTypeSetFormat>bx</apcm:LegacyTypeSetFormat>
+    <apcm:TransmissionReference>V2115</apcm:TransmissionReference>
+    <apcm:SlugLine>BC-US--White House-Fence Jumper,6th Ld</apcm:SlugLine>
+    <apcm:ContentElement>FastStory</apcm:ContentElement>
+    <apcm:MediaType>Text</apcm:MediaType>
+    <apcm:EntityClassification Authority="AP Organization" Value="United States government" Id="898f52e08921100480efba0a2b2ca13e" />
+    <apcm:EntityClassification Authority="AP Party" Value="Ed Donovan" Id="193f37205db04b17af1602cd44ca7160">
+      <apcm:Property Id="c36da8659727410db9c2953327f2a03f" Name="PartyType" Value="MOVIE_ACTOR" />
+      <apcm:Property Id="da61b7ea53aa442a97ebd8c8dc93c3b8" Name="PartyType" Value="ENTERTAINMENT_FIGURE" />
+      <apcm:Property Id="d188b8b8886b100481accb8225d5863e" Name="PartyType" Value="PERSON" />
+    </apcm:EntityClassification>
+    <apcm:EntityClassification Authority="AP Party" Value="Barack Obama" Id="b1d550d087874a0393ebfa85dab5ea0a">
+      <apcm:Property Id="c9d7fa107e4e1004847adf092526b43e" Name="PartyType" Value="POLITICIAN" />
+      <apcm:Property Id="d188b8b8886b100481accb8225d5863e" Name="PartyType" Value="PERSON" />
+    </apcm:EntityClassification>
+    <apcm:EntityClassification Authority="AP Geography" Value="District of Columbia" Id="788b364882f110048df3df092526b43e" />
+    <apcm:EntityClassification Authority="AP Geography" Value="United States" Id="661e48387d5b10048291c076b8e3055c" />
+    <apcm:EntityClassification Authority="AP Geography" Value="North America" Id="661850e07d5b100481f7c076b8e3055c" />
+    <apcm:EntityClassification Authority="AP Organization" Value="U.S. Secret Service" Id="e5cf0f208bcc100480dbeb438e258b03" />
+    <apcm:SubjectClassification Authority="AP Category Code" Value="w" Id="w" />
+    <apcm:SubjectClassification Authority="AP Subject" Value="Government and politics" Id="86aad5207dac100488ecba7fa5283c3e" />
+    <apcm:ItemContentType>Spot Development</apcm:ItemContentType>
+    <apcm:Source>AP</apcm:Source>
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:product:32710" Value="Broadcast News Separates - National" />
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:product:38227" Value="Broadcast NewsAlert" />
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:package:100216" Value="Broadcast - National Newspower" />
+    <apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:savedsearch:595761" Value="WEWS AP Feed" />
+    <apcm:Property Name="SequenceNumber" Value="InSequence" Id="306027377" />
+    <apcm:FirstCreated>2014-09-20T03:28:01Z</apcm:FirstCreated>
+  </apcm:ContentMetadata>
+  <apnm:NewsManagement xmlns:apnm="http://ap.org/schemas/03/2005/apnm">
+    <apnm:ManagementId>urn:publicid:ap.org:70090fd2bd2f45468ba6b3ccd0185fe8</apnm:ManagementId>
+    <apnm:ManagementSequenceNumber>6</apnm:ManagementSequenceNumber>
+    <apnm:PublishingStatus>Usable</apnm:PublishingStatus>
+    <apnm:PublishingSpecialInstructions>Eds: APNewsNow. Updates with individual making it into the White House. Will be updated. With AP Photos.</apnm:PublishingSpecialInstructions>
+    <apnm:PublishingReleaseDateTime>2014-09-20T03:27:58Z</apnm:PublishingReleaseDateTime>
+    <apnm:LegacyNewsManagement>
+      <apnm:LegacyType>ANPA1312+NAA89-3</apnm:LegacyType>
+      <apnm:LegacyManagementType Value="Lead">
+        <apnm:TypeSupportingData DataType="LeadNumber">6</apnm:TypeSupportingData>
+      </apnm:LegacyManagementType>
+    </apnm:LegacyNewsManagement>
+  </apnm:NewsManagement>
+</entry>
+</feed>

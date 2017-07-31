@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:apcm="http://ap.org/schemas/03/2005/apcm"
+	xmlns:apnm="http://ap.org/schemas/03/2005/apnm" xmlns:georss="http://www.georss.org/georss"
+	xmlns:o="http://w3.org/ns/odrl/2/">
+	<id>urn:publicid:ap.org:595762</id>
+	<title type="xhtml">
+		<apxh:div xmlns:apxh="http://www.w3.org/1999/xhtml">
+			<apxh:span>WEWS AP Feed</apxh:span>
+		</apxh:div>
+	</title>
+	<apcm:Property Name="FeedProperties">
+		<apcm:Property Name="Entitlement"
+			Id="urn:publicid:ap.org:savedsearch:595761" Value="WEWS AP Feed" />
+		<apcm:Property Name="FeedSequencing">
+			<apcm:Property Name="sequenceNumber" Id="235264572" />
+			<apcm:Property Name="minDateTime" Value="2013-06-05T08:15:02.993Z" />
+		</apcm:Property>
+	</apcm:Property>
+	<updated>2013-06-05T08:15:02.993Z</updated>
+	<author>
+		<name>The Associated Press</name>
+		<uri>http://www.ap.org</uri>
+	</author>
+	<rights>Copyright 2013 The Associated Press. All rights reserved. This
+		material may not be published, broadcast, rewritten or redistributed.
+	</rights>
+	<link rel="self"
+		href="http://syndication.ap.org/AP.Distro.Feed/GetFeed.aspx?idList=595761&amp;idListType=savedsearches&amp;fullContent=true" />
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<id>bl_test_lin_ap_11211533</id>
+		<title>MI--Federal Agent-Crash</title>
+		<updated>2013-06-05T08:03:20.373Z</updated>
+		<published>2013-06-05T08:01:53Z</published>
+		<author>
+			<name>AP</name>
+		</author>
+		<rights>Copyright 2013 The Associated Press. All rights reserved. This
+			material may not be published, broadcast, rewritten or redistributed.
+		</rights>
+		<content type="text/xml">
+			<nitf version="-//IPTC//DTD NITF 3.4//EN" change.date="October 18, 2006"
+				change.time="19:30" xmlns="">
+				<head>
+					<docdata>
+						<doc-id regsrc="AP" />
+						<date.issue norm="20130605T080153Z" />
+						<ed-msg info="Eds: APNewsNow." />
+						<doc.rights owner="http://www.ap.org" agent="http://license.icopyright.net"
+							type="none" />
+						<doc.copyright holder="AP" year="2013" />
+					</docdata>
+				</head>
+				<body>
+					<body.head>
+						<hedline>
+							<hl1 id="headline">bl_test_lin_ap_11211533 A federal agent has been
+								cleared in a lawsuit over a crash that occurred</hl1>
+							<hl2 id="originalHeadline">bl_test_lin_ap_11211533 A federal agent has been
+								cleared in a lawsuit over a crash that occurred</hl2>
+						</hedline>
+						<distributor>The Associated Press</distributor>
+						<dateline>
+							<location>SOUTHGATE, Mich.</location>
+						</dateline>
+					</body.head>
+					<body.content>
+						<media id="media:c25f208ee63d40c3bd44530e23676618"
+							media-type="Photo">
+							<media-metadata id="media-id:c25f208ee63d40c3bd44530e23676618"
+								name="id" value="urn:publicid:ap.org:c25f208ee63d40c3bd44530e23676618" />
+							<media-metadata
+								id="media-friendlyKey:c25f208ee63d40c3bd44530e23676618" name="FriendlyKey"
+								value="784771232543" />
+							<media-metadata id="media-transRef:c25f208ee63d40c3bd44530e23676618"
+								name="TransRef" value="GB103" />
+							<media-caption id="media-caption:c25f208ee63d40c3bd44530e23676618">
+								<p>
+									A Turkish soldier patrols at the Cilvegozu gate border with
+									Syria, Monday, Sept. 2, 2013. U.S. President Barack Obama is
+									inviting former foe Sen. John McCain to the White House, hoping
+									one of Congress' most intractable foreign policy hawks will
+									help sell the idea of a U.S. military intervention in Syria to
+									a nation deeply scarred by more than a decade of war. (AP
+									Photo/Gregorio Borgia)
+								</p>
+							</media-caption>
+							<media-metadata
+								id="media-metadata-OriginalFileName:1a673cf593f2371d3c0f6a7067002b21"
+								name="OriginalFileName" value="bl_test_lin_ap_11211533.jpg" />
+							<media-metadata
+								id="media-metadata-Format:1a673cf593f2371d3c0f6a7067002b21"
+								name="Format" value="JPEG Baseline" />
+							<media-metadata
+								id="media-metadata-Role:1a673cf593f2371d3c0f6a7067002b21" name="Role"
+								value="Main" />
+							<media-metadata
+								id="media-metadata-IngestLink:1a673cf593f2371d3c0f6a7067002b21"
+								name="IngestLink" value="True" />
+							<media-reference
+								id="media-reference:1a673cf593f2371d3c0f6a7067002b21" mime-type="image/jpeg"
+								name="AP Photo"
+								source="http://192.168.179.93/localftp/bl_test_lin_ap_11211533.jpg"
+								height="2346" width="3498" coding="jpg" />
+
+							<media-producer id="media-producer:c25f208ee63d40c3bd44530e23676618">The Associated Press
+							</media-producer>
+						</media>
+						<block id="Main">
+							<p>SOUTHGATE, Mich. (AP) — A federal agent has been cleared in a
+								lawsuit over a crash that occurred while he was driving to a
+								Detroit-area police shooting.</p>
+							<p>William Temple's Ford Flex collided with Lynae Neal's Lincoln
+								Town Car in 2010 in Southgate. Temple's unmarked car had a siren
+								and flashing lights. He stopped at a red light, looked for
+								traffic and hit the gas.</p>
+							<p>Neal says she heard a siren, didn't see the agent's car and
+								continued east through the intersection.</p>
+							<p>A Detroit federal judge says the agent used due care and was
+								responding to an emergency, even if a Taylor police officer had
+								been shot more than two hours earlier.</p>
+							<p>The 51-year-old Neal says she suffered head and back injuries
+								because of the crash. She was ticketed.</p>
+						</block>
+					</body.content>
+					<body.end />
+				</body>
+			</nitf>
+		</content>
+		<link rel="alternate" title="AP Article"
+			href="http://www.apnewsarchive.com/2013/Judge-clears-federal-agent-in-crash-on-way-to-2010-Detroit-area-police-shooting/id-e551091ec6444ca5bbf160335ce32f45" />
+		<apcm:ContentMetadata xmlns:apcm="http://ap.org/schemas/03/2005/apcm">
+			<apcm:DateLineLocation City="Southgate"
+				Country="USA" CountryArea="MI" CountryAreaName="Michigan"
+				CountryName="United States" />
+			<apcm:Priority Numeric="4" Legacy="r" />
+			<apcm:ConsumerReady>TRUE</apcm:ConsumerReady>
+			<apcm:DateLine>SOUTHGATE, Mich.</apcm:DateLine>
+			<apcm:ExtendedHeadLine>Judge clears federal agent in crash on way to
+				2010 Detroit-area police shooting</apcm:ExtendedHeadLine>
+			<apcm:HeadLine>Woman loses lawsuit over crash with federal agent
+			</apcm:HeadLine>
+			<apcm:OriginalHeadLine>Woman loses lawsuit over crash with federal
+				agent</apcm:OriginalHeadLine>
+			<apcm:Keywords>Federal Agent-Crash</apcm:Keywords>
+			<apcm:ContentElement>FastStory</apcm:ContentElement>
+			<apcm:MediaType>Text</apcm:MediaType>
+			<apcm:EntityClassification Authority="AP Geography"
+				Value="Michigan" Id="6bf49b4082c410048696df092526b43e" />
+			<apcm:EntityClassification Authority="AP Geography"
+				Value="Detroit" Id="7ef0c27882c4100486a7df092526b43e" />
+			<apcm:EntityClassification Authority="AP Geography"
+				Value="United States" Id="661e48387d5b10048291c076b8e3055c" />
+			<apcm:EntityClassification Authority="AP Geography"
+				Value="North America" Id="661850e07d5b100481f7c076b8e3055c" />
+			<apcm:SubjectClassification Authority="AP Category Code"
+				Value="n" Id="n" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="General news" Id="f25af2d07e4e100484f5df092526b43e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Police" Id="ac3e72608315100485b2d5a57deba703" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Legal proceedings" Id="4626a38a1b52454ca5d01755d14f1dc9" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Law and order" Id="17956128897810048ce8d56c852d093e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Law enforcement agencies" Id="a37eab90831510048fcfdf092526b43e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Government and politics" Id="86aad5207dac100488ecba7fa5283c3e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Violent crime" Id="13c6a480899b10048b9dd56c852d093e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Crime" Id="48612b807c2b4b93bbbacbf54f547ad5" />
+			<apcm:ItemContentType>Spot Development</apcm:ItemContentType>
+			<apcm:Source>AP</apcm:Source>
+			<apcm:Property Name="EntitlementMatch"
+				Id="urn:publicid:ap.org:savedsearch:595761" Value="WEWS AP Feed" />
+			<apcm:Property Name="SequenceNumber" Value="InSequence"
+				Id="235262506" />
+			<apcm:FirstCreated>2013-06-05T08:01:53Z</apcm:FirstCreated>
+		</apcm:ContentMetadata>
+		<apnm:NewsManagement xmlns:apnm="http://ap.org/schemas/03/2005/apnm">
+			<apnm:ManagementId>bl_test_lin_ap_11211533</apnm:ManagementId>
+			<apnm:ManagementSequenceNumber>1</apnm:ManagementSequenceNumber>
+			<apnm:PublishingStatus>Usable</apnm:PublishingStatus>
+			<apnm:PublishingSpecialInstructions>Eds: APNewsNow.
+			</apnm:PublishingSpecialInstructions>
+			<apnm:PublishingReleaseDateTime>2013-06-05T08:00:00Z
+			</apnm:PublishingReleaseDateTime>
+		</apnm:NewsManagement>
+	</entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<xml-bindings
+    xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/oxm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    version="2.3"
+    package-name="com.endplay.feeds.jobs.dto"
+    xml-mapping-metadata-complete="true">
+    
+    <xml-schema>
+        <xml-ns prefix="content" namespace-uri="http://purl.org/rss/1.0/modules/content/"/>
+        <xml-ns prefix="media" namespace-uri="http://search.yahoo.com/mrss/"/>
+        <xml-ns prefix="rdf" namespace-uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+        <xml-ns prefix="dc" namespace-uri="http://purl.org/dc/elements/1.1/"/>
+        <xml-ns prefix="taxo" namespace-uri="http://purl.org/rss/1.0/modules/taxonomy/"/>
+    </xml-schema>
+    
+    <java-types>
+        <java-type name="FeedEntry">
+            <xml-root-element name="rss" />
+            <xml-virtual-access-methods set-method="put"/>
+            <java-attributes>
+            	<xml-element java-attribute="entries" name="channel/item" type="com.endplay.feeds.jobs.dto.FeedEntry" container-type="java.util.ArrayList"/>
+            	<xml-element java-attribute="externalStoryId" name="guid"/>
+
+            	<xml-element java-attribute="headline" name="title"/>
+            	<xml-element java-attribute="body" name="description"/>
+            	<xml-element java-attribute="link" name="link"/>
+            	
+            	<xml-element java-attribute="images" name="enclosure" type="com.endplay.feeds.jobs.dto.FeedEntry" container-type="java.util.ArrayList"/>
+            	<xml-element java-attribute="location" xml-path="@url"/>
+            	
+                <xml-element java-attribute="videos" name="media:content[@type=''video/mp4'']" type="com.endplay.feeds.jobs.dto.FeedEntry" container-type="java.util.ArrayList"/>
+                <xml-element java-attribute="location" name="@url"/>
+                <xml-element java-attribute="bitrate" name="@bitrate"/>            	
+            </java-attributes>
+        </java-type>
+    </java-types>
+</xml-bindings>

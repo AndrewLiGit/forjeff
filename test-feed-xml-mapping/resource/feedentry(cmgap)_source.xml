@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:apcm="http://ap.org/schemas/03/2005/apcm"
+	xmlns:apnm="http://ap.org/schemas/03/2005/apnm" xmlns:georss="http://www.georss.org/georss"
+	xmlns:o="http://w3.org/ns/odrl/2/">
+	<id>urn:publicid:ap.org:100276</id>
+	<title type="xhtml">
+		<apxh:div xmlns:apxh="http://www.w3.org/1999/xhtml">
+			<apxh:span>AP Online - Entertainment</apxh:span>
+		</apxh:div>
+	</title>
+	<apcm:Property Name="FeedProperties">
+		<apcm:Property Name="Entitlement" Id="urn:publicid:ap.org:package:100276"
+			Value="AP Online - Entertainment" />
+		<apcm:Property Name="FeedSequencing">
+			<apcm:Property Name="sequenceNumber" Id="306848354" />
+			<apcm:Property Name="minDateTime" Value="2014-09-26T02:03:07.557Z" />
+		</apcm:Property>
+	</apcm:Property>
+	<updated>2014-09-26T02:03:07.557Z</updated>
+	<author>
+		<name>The Associated Press</name>
+		<uri>http://www.ap.org</uri>
+	</author>
+	<rights>Copyright 2014 The Associated Press. All rights reserved. This
+		material may not be published, broadcast, rewritten or redistributed.
+	</rights>
+	<link rel="self"
+		href="http://syndication.ap.org/AP.Distro.Feed/GetFeed.aspx?idList=100276&amp;idListType=products&amp;maxitems=50&amp;fullcontent=true" />
+	<entry xmlns="http://www.w3.org/2005/Atom">
+		<id>urn:publicid:ap.org:0ef09970947a4ebaaf003cfccda8d4f0</id>
+		<title>US--Filming in Wilderness</title>
+		<updated>2014-09-26T00:47:16.073Z</updated>
+		<published>2014-09-26T00:47:08Z</published>
+		<author>
+			<name>AP</name>
+		</author>
+		<rights>Copyright 2014 The Associated Press. All rights reserved. This
+			material may not be published, broadcast, rewritten or redistributed.
+		</rights>
+		<content type="text/xml">
+			<nitf version="-//IPTC//DTD NITF 3.4//EN" change.date="October 18, 2006"
+				change.time="19:30" xmlns="">
+				<head>
+					<docdata>
+						<doc-id regsrc="AP" />
+						<date.issue norm="20140926T004708Z" />
+						<ed-msg info="Eds: Expands with details, restores background." />
+						<doc.rights owner="http://www.ap.org" agent="http://license.icopyright.net"
+							type="none" />
+						<doc.copyright holder="AP" year="2014" />
+					</docdata>
+				</head>
+				<body>
+					<body.head>
+						<hedline>
+							<hl1 id="headline">Forest Service says media doesn't need permit</hl1>
+							<hl2 id="originalHeadline">Forest Service says media doesn't need permit</hl2>
+						</hedline>
+						<byline>
+							PHUONG LE
+							<byttl>Associated Press</byttl>
+						</byline>
+						<distributor>The Associated Press</distributor>
+						<dateline>
+							<location>SEATTLE</location>
+						</dateline>
+					</body.head>
+					<body.content>
+						<media id="media:cb82096e676441e18a01a048cd2d167f"
+							media-type="Photo">
+							<media-metadata id="media-id:cb82096e676441e18a01a048cd2d167f"
+								name="id" value="urn:publicid:ap.org:cb82096e676441e18a01a048cd2d167f" />
+							<media-metadata
+								id="media-managementId:cb82096e676441e18a01a048cd2d167f" name="managementId"
+								value="urn:publicid:ap.org:cb82096e676441e18a01a048cd2d167f" />
+							<media-metadata
+								id="media-friendlyKey:cb82096e676441e18a01a048cd2d167f" name="FriendlyKey"
+								value="106795388272" />
+							<media-metadata id="media-transRef:cb82096e676441e18a01a048cd2d167f"
+								name="TransRef" value="SE101" />
+							<media-metadata
+								id="media-metadata-OriginalFileName:25cd93c2c156bb25600f6a706700936a"
+								name="OriginalFileName" value="Filming in the Wilderness.JPEG" />
+							<media-metadata
+								id="media-metadata-Format:25cd93c2c156bb25600f6a706700936a"
+								name="Format" value="JPEG Baseline" />
+							<media-metadata
+								id="media-metadata-Role:25cd93c2c156bb25600f6a706700936a" name="Role"
+								value="Main" />
+							<media-metadata
+								id="media-metadata-IngestLink:25cd93c2c156bb25600f6a706700936a"
+								name="IngestLink" value="True" />
+							<media-reference
+								id="media-reference:25cd93c2c156bb25600f6a706700936a" mime-type="image/jpeg"
+								name="AP Photo"
+								source="http://eapcontent.ap.org/jpg/2014/20140925/19/25cd93c2c156bb25600f6a706700936a.jpg?contentid=25cd93c2c156bb25600f6a706700936a/fmt=jpg/role=Main/reldt=2014-09-25T19:43:57/media=Photo/recordid=cb82096e676441e18a01a048cd2d167f/itemid=cb82096e676441e18a01a048cd2d167f/objfilename=secured/main.jpg/authToken=eNoNyjEKwzAMAMDPdLWRLUuKB0Gf0B%2bUWLEhUwMhOIMe38x33m9lpCJEpTIDQE2Abrtmsq2i5WCJOLSWKTw8Aq8CLM9DXv061X73d%2fY2et9OP6a%2bP3O8JBVefD%2bUSlw4JpSI%2fAdTbx5d&amp;token=1411958166_734F9EA213B80A965E6245FCD3E9D3CC"
+								height="1365" width="2048" coding="jpg" />
+							<media-metadata
+								id="media-metadata-OriginalFileName:25cdee44c156bb25600f6a70670099c7"
+								name="OriginalFileName" value="Filming in the Wilderness.JPEG" />
+							<media-metadata
+								id="media-metadata-Format:25cdee44c156bb25600f6a70670099c7"
+								name="Format" value="JPEG Baseline" />
+							<media-metadata
+								id="media-metadata-Role:25cdee44c156bb25600f6a70670099c7" name="Role"
+								value="Preview" />
+							<media-metadata
+								id="media-metadata-IngestLink:25cdee44c156bb25600f6a70670099c7"
+								name="IngestLink" value="True" />
+							<media-reference
+								id="media-reference:25cdee44c156bb25600f6a70670099c7" mime-type="image/jpeg"
+								name="AP Preview Image"
+								source="http://eapcontent.ap.org/jpg/2014/20140925/19/25cdee44c156bb25600f6a70670099c7.jpg?contentid=25cdee44c156bb25600f6a70670099c7/fmt=jpg/role=Preview/reldt=2014-09-25T19:43:57/media=Photo/recordid=cb82096e676441e18a01a048cd2d167f/itemid=cb82096e676441e18a01a048cd2d167f/objfilename=preview.jpg/authToken=eNoNyjsKwzAMANDLdLWRY33iQdAj9AalVmTI1EAozqDDN%2fN74ZdyJRQibMwA0ArUsF0Xss0dMVkhTr0vlG4eiT8CLPdrJvE71b7Xe3of7tsZx9Tna46HFOQ19kMJ88q5VMmV%2f2RjHpc%3d&amp;token=1411958166_8E374ADC20629D501DDCE655834BC065"
+								height="341" width="512" coding="jpg" />
+							<media-metadata
+								id="media-metadata-OriginalFileName:25cd2ca2c156bb25600f6a7067001a06"
+								name="OriginalFileName" value="Filming in the Wilderness.JPEG" />
+							<media-metadata
+								id="media-metadata-Format:25cd2ca2c156bb25600f6a7067001a06"
+								name="Format" value="JPEG Baseline" />
+							<media-metadata
+								id="media-metadata-Role:25cd2ca2c156bb25600f6a7067001a06" name="Role"
+								value="Thumbnail" />
+							<media-metadata
+								id="media-metadata-IngestLink:25cd2ca2c156bb25600f6a7067001a06"
+								name="IngestLink" value="True" />
+							<media-reference
+								id="media-reference:25cd2ca2c156bb25600f6a7067001a06" mime-type="image/jpeg"
+								name="AP Thumbnail Image"
+								source="http://eapcontent.ap.org/jpg/2014/20140925/19/25cd2ca2c156bb25600f6a7067001a06.jpg?contentid=25cd2ca2c156bb25600f6a7067001a06/fmt=jpg/role=Thumbnail/reldt=2014-09-25T19:43:57/media=Photo/recordid=cb82096e676441e18a01a048cd2d167f/itemid=cb82096e676441e18a01a048cd2d167f/objfilename=thumbnail.jpg/authToken=eNoNyTEKwzAMAMDPdLWRbEtKBkGe0B8UW7EhUwOhOIMe39x63m%2flTEWIysoMACtCdjs0ke3JagqGxKG1ROHpEbgKsABgBfbfpfa9P7O30ft%2b%2bTl1e8%2fxEiy8%2bHEqlbhwxCwx8x9dXh55&amp;token=1411958166_DFF01986DC8DC980AE74ECF6250E2582"
+								height="85" width="128" coding="jpg" />
+							<media-caption id="media-caption:cb82096e676441e18a01a048cd2d167f">
+								<p>
+									In this 2013 photo provided by Oregon Field Guide, photographer
+									Andy Maser, right, photographs caver Eddy Cartaya, center, near
+									a glacier cave in the Mount Hood Wilderness area in Oregon for
+									an episode of "Oregon Field Guide" for Oregon Public
+									Broadcasting. The U.S. Forest Service said Thursday, Sept. 25,
+									2014, that it is extending the period for the public to weigh
+									in on a proposal that would make permanent new rules and permit
+									fees for commercial video and still photography in federally
+									designated wilderness areas. (AP Photo/Courtesy Oregon Public
+									Broadcasting, Katie Campbell)
+								</p>
+							</media-caption>
+							<media-producer id="media-producer:cb82096e676441e18a01a048cd2d167f">The Associated Press
+							</media-producer>
+						</media>
+						<media id="media:b8ec934a6881467191a3c512449272cc"
+							media-type="Photo">
+							<media-metadata id="media-id:b8ec934a6881467191a3c512449272cc"
+								name="id" value="urn:publicid:ap.org:b8ec934a6881467191a3c512449272cc" />
+							<media-metadata
+								id="media-managementId:b8ec934a6881467191a3c512449272cc" name="managementId"
+								value="urn:publicid:ap.org:b8ec934a6881467191a3c512449272cc" />
+							<media-metadata
+								id="media-friendlyKey:b8ec934a6881467191a3c512449272cc" name="FriendlyKey"
+								value="503812091340" />
+							<media-metadata id="media-transRef:b8ec934a6881467191a3c512449272cc"
+								name="TransRef" value="SE102" />
+							<media-metadata
+								id="media-metadata-OriginalFileName:ae9526eec156bb25600f6a706700f937"
+								name="OriginalFileName" value="Filming in the Wilderness.JPEG" />
+							<media-metadata
+								id="media-metadata-Format:ae9526eec156bb25600f6a706700f937"
+								name="Format" value="JPEG Baseline" />
+							<media-metadata
+								id="media-metadata-Role:ae9526eec156bb25600f6a706700f937" name="Role"
+								value="Main" />
+							<media-metadata
+								id="media-metadata-IngestLink:ae9526eec156bb25600f6a706700f937"
+								name="IngestLink" value="True" />
+							<media-reference
+								id="media-reference:ae9526eec156bb25600f6a706700f937" mime-type="image/jpeg"
+								name="AP Photo"
+								source="http://eapcontent.ap.org/jpg/2014/20140925/19/ae9526eec156bb25600f6a706700f937.jpg?contentid=ae9526eec156bb25600f6a706700f937/fmt=jpg/role=Main/reldt=2014-09-25T19:44:32/media=Photo/recordid=b8ec934a6881467191a3c512449272cc/itemid=b8ec934a6881467191a3c512449272cc/objfilename=secured/main.jpg/authToken=eNoNyTEKwzAMBdDLdLWRI%2bsrHgQ9Qm9QYleGTA2E4gw%2bfLM9eNMvA0tWkVwAIiqJeLbdNi%2bywD20JAi1LhLu7gGbEvRWYZ2%2f09r3eg%2bv3f1zzmPY8zX6Q1PGOvfDJMcVMbFGxh9mBB6a&amp;token=1411958166_CD5CC164A6D1336124AD4F6D0D292A01"
+								height="1365" width="2048" coding="jpg" />
+							<media-metadata
+								id="media-metadata-OriginalFileName:ae95b79cc156bb25600f6a70670010bc"
+								name="OriginalFileName" value="Filming in the Wilderness.JPEG" />
+							<media-metadata
+								id="media-metadata-Format:ae95b79cc156bb25600f6a70670010bc"
+								name="Format" value="JPEG Baseline" />
+							<media-metadata
+								id="media-metadata-Role:ae95b79cc156bb25600f6a70670010bc" name="Role"
+								value="Preview" />
+							<media-metadata
+								id="media-metadata-IngestLink:ae95b79cc156bb25600f6a70670010bc"
+								name="IngestLink" value="True" />
+							<media-reference
+								id="media-reference:ae95b79cc156bb25600f6a70670010bc" mime-type="image/jpeg"
+								name="AP Preview Image"
+								source="http://eapcontent.ap.org/jpg/2014/20140925/19/ae95b79cc156bb25600f6a70670010bc.jpg?contentid=ae95b79cc156bb25600f6a70670010bc/fmt=jpg/role=Preview/reldt=2014-09-25T19:44:32/media=Photo/recordid=b8ec934a6881467191a3c512449272cc/itemid=b8ec934a6881467191a3c512449272cc/objfilename=preview.jpg/authToken=eNoNyTEKwzAMAMDPdLWRYkuKB0Gf0B%2bUSJUhUwKhOIMf3956M27lQlWIamMGgIZQpu%2b6RSOT5smROJktlP7dE28CLAAI5vN7qR%2f3e4T1iM81z6HP1%2bgPwcrr3E%2blmlfOWCQX%2fgFsHB66&amp;token=1411958166_E6ED2AB4DEB2E29EA83839709791A862"
+								height="341" width="512" coding="jpg" />
+							<media-metadata
+								id="media-metadata-OriginalFileName:ae95afe4c156bb25600f6a7067007795"
+								name="OriginalFileName" value="Filming in the Wilderness.JPEG" />
+							<media-metadata
+								id="media-metadata-Format:ae95afe4c156bb25600f6a7067007795"
+								name="Format" value="JPEG Baseline" />
+							<media-metadata
+								id="media-metadata-Role:ae95afe4c156bb25600f6a7067007795" name="Role"
+								value="Thumbnail" />
+							<media-metadata
+								id="media-metadata-IngestLink:ae95afe4c156bb25600f6a7067007795"
+								name="IngestLink" value="True" />
+							<media-reference
+								id="media-reference:ae95afe4c156bb25600f6a7067007795" mime-type="image/jpeg"
+								name="AP Thumbnail Image"
+								source="http://eapcontent.ap.org/jpg/2014/20140925/19/ae95afe4c156bb25600f6a7067007795.jpg?contentid=ae95afe4c156bb25600f6a7067007795/fmt=jpg/role=Thumbnail/reldt=2014-09-25T19:44:32/media=Photo/recordid=b8ec934a6881467191a3c512449272cc/itemid=b8ec934a6881467191a3c512449272cc/objfilename=thumbnail.jpg/authToken=eNoNyTsKwzAMANDLdLWRa33iQdAj9AbBdmTI1EAozqDDJ299bpdyJhQiLMwAUBJk77tWK1SHYeiJOLT2pvD0CFwFWABECvn%2f1P671mltmG2nH1M%2f3zlekpAX3w8ljAvHlCVmvgFrnR6b&amp;token=1411958166_ED371EFD2335142A2710C8A9D39FBD69"
+								height="85" width="128" coding="jpg" />
+							<media-caption id="media-caption:b8ec934a6881467191a3c512449272cc">
+								<p>
+									In this 2013 photo provided by Oregon Field Guide, photographer
+									Todd Sonflieth, left, films as Ed Jahn, second from left, a
+									reporter for Oregon Field Guide, interviews caver Eddy Cartaya,
+									center, on location in the Mount Hood Wilderness area in Oregon
+									for an episode of "Oregon Field Guide" for Oregon Public
+									Broadcasting. The U.S. Forest Service said Thursday, Sept. 25,
+									2014, that it is extending the period for the public to weigh
+									in on a proposal that would make permanent new rules and permit
+									fees for commercial video and still photography in federally
+									designated wilderness areas. (AP Photo/Courtesy Oregon Public
+									Broadcasting, Katie Campbell)
+								</p>
+							</media-caption>
+							<media-producer id="media-producer:b8ec934a6881467191a3c512449272cc">The Associated Press
+							</media-producer>
+						</media>
+						<block id="Main">
+							<p>SEATTLE (AP) — Faced with increasing criticism of a proposal
+								that would restrict media filming in wilderness areas, the head
+								of the U.S. Forest Service said late Thursday that the rule is
+								not intended to apply to news-gathering activities.</p>
+							<p>The rule would apply to commercial filming, like a movie
+								production, but reporters and news organizations would not need
+								to get a permit to shoot video or photographs in the nation's
+								wilderness areas, Forest Service Chief Tom Tidwell said in a
+								phone interview Thursday.</p>
+							<p>"The U.S. Forest Service remains committed to the First
+								Amendment," he said, adding: "It does not infringe in any way on
+								First Amendment rights. It does not apply to news-gathering
+								activities, and that includes any part of news."</p>
+							<p>Forest Service officials had said earlier in the week that
+								news organizations, except in breaking news situations, would be
+								required to obtain a permit and follow a number of criteria if
+								they wanted to film in designated wilderness areas.</p>
+							<p>At least two public TV stations, in Idaho and Oregon, said
+								they have been asked to obtain a permit before filming their
+								programs in wilderness areas. Press advocates criticized the
+								proposed rules as a violation of the First Amendment, saying it
+								raises concerns about press freedom.</p>
+							<p>"I understand what he's saying the intent is, but the language
+								doesn't not reflect that intent," Mickey Osterreicher, general
+								counsel for the National Press Photographers Association, said
+								Thursday in response to Tidwell's comments.</p>
+							<p>"If they're serious about it, they need to craft unambiguous
+								language that exempts news-gathering if that's their alleged
+								intent, so there's no question that someone out on a news story
+								wouldn't have a ranger or other employee saying 'You need a
+								permit'," Osterreicher said.</p>
+							<p>Osterreicher noted that the proposal clearly refers to permits
+								for still photography, but Tidwell said Thursday that "the
+								intent is not for it to apply to still photography." When this
+								discrepancy was raised to him, Tidwell said: "This is an example
+								of where we need to clarify."</p>
+							<p>Tidwell said the agency wants feedback to help make sure the
+								rules are clear and consistent.</p>
+							<p>Professional and amateur photographers will not need a permit
+								unless they use models, actors, props; work in areas where the
+								public is generally not allowed; or cause additional
+								administrative costs, the agency said in a release.</p>
+							<p>Tidwell acknowledged that fees are applied differently by the
+								agency across the country. He said the goal is to have a
+								consistent approach to permitting commercial filming activities.
+							</p>
+							<p>Commercial-filming permits currently run anywhere from $30 a
+								day for up to three people to as much as $800 for production
+								involving dozens of people.</p>
+							<p>A separate proposal out for public comment would charge as
+								much as $1,500 for the bigger film productions involving dozens
+								of people on federal lands.</p>
+							<p>The plan "is a good faith effort to ensure the fullest
+								protection of America's wild places" and has been in place for
+								more than four years, Forest Service spokesman Larry Chambers
+								said in a statement earlier Thursday.</p>
+							<p>Tidwell, whose agency manages nearly 190 million acres of
+								public lands in national forests and grasslands, including 439
+								wilderness areas, said he welcomed feedback from the public at
+								meetings to help craft clearer rules. The comment period has
+								been extended through Dec. 3.</p>
+							<p>Under the rules, permit applications for commercial filming
+								would be evaluated based on several criteria, including whether
+								it spreads information about the enjoyment or use of wilderness
+								or its ecological, geological, scientific, educational, scenic
+								or historical values; helps preserve the wilderness character;
+								and doesn't advertise products or services. Officials also would
+								consider whether other suitable film sites are available outside
+								the wilderness.</p>
+						</block>
+					</body.content>
+					<body.end />
+				</body>
+			</nitf>
+		</content>
+		<link rel="alternate" title="AP Article"
+			href="http://www.apnewsarchive.com/2014/Forest-Service-says-proposed-rules-for-filming-in-wilderness-don't-apply-to-media/id-84bc4616255346e39fc3bc4b8d7eaf38" />
+		<apcm:ContentMetadata xmlns:apcm="http://ap.org/schemas/03/2005/apcm">
+			<apcm:DateLineLocation City="Seattle" Country="USA"
+				CountryArea="WA" CountryAreaName="Washington" CountryName="United States"
+				LatitudeDD="47.606210000" LongitudeDD="-122.332070000" />
+			<apcm:Priority Numeric="4" Legacy="r" />
+			<apcm:ConsumerReady>TRUE</apcm:ConsumerReady>
+			<apcm:ByLine Title="Associated Press">By PHUONG LE</apcm:ByLine>
+			<apcm:DateLine>SEATTLE</apcm:DateLine>
+			<apcm:ExtendedHeadLine>Forest Service says proposed rules for filming
+				in wilderness don't apply to media</apcm:ExtendedHeadLine>
+			<apcm:HeadLine>Forest Service says media doesn't need permit
+			</apcm:HeadLine>
+			<apcm:OriginalHeadLine>Forest Service says media doesn't need permit
+			</apcm:OriginalHeadLine>
+			<apcm:Keywords>US--Filming in Wilderness</apcm:Keywords>
+			<apcm:Cycle>AP</apcm:Cycle>
+			<apcm:Selector>-----</apcm:Selector>
+			<apcm:LegacyTypeSetFormat>bx</apcm:LegacyTypeSetFormat>
+			<apcm:TransmissionReference>V3362</apcm:TransmissionReference>
+			<apcm:SlugLine>AP-US-Filming-in-Wilderness</apcm:SlugLine>
+			<apcm:ContentElement>FullStory</apcm:ContentElement>
+			<apcm:MediaType>Text</apcm:MediaType>
+			<apcm:EntityClassification Authority="AP Geography"
+				Value="United States" Id="661e48387d5b10048291c076b8e3055c">
+				<apcm:Property Id="01f56e0e654841eca2e69bf2cbcc0526"
+					Name="LocationType" Value="Nation" />
+			</apcm:EntityClassification>
+			<apcm:EntityClassification Authority="AP Geography"
+				Value="Washington" Id="08a0a00882c810048942df092526b43e">
+				<apcm:Property Id="0ae5eb8e00e04295a4fc209c94bfe6ef"
+					Name="LocationType" Value="State" />
+			</apcm:EntityClassification>
+			<apcm:EntityClassification Authority="AP Geography"
+				Value="North America" Id="661850e07d5b100481f7c076b8e3055c">
+				<apcm:Property Id="976d112cd5c3497ea180aeecab922c6b"
+					Name="LocationType" Value="Continent" />
+			</apcm:EntityClassification>
+			<apcm:SubjectClassification Authority="AP Category Code"
+				Value="a" Id="a" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Business" Id="c8e409f8858510048872ff2260dd383e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Arts and entertainment" Id="16cb0ba3e6d24d97ace39f5a1924669a" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="General news" Id="f25af2d07e4e100484f5df092526b43e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Freedom of the press" Id="d4ebee9085ae10048bef9a5aeba5fb06" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Forests" Id="32f6ce4087aa10048a5be9f06a797907" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Forestry" Id="4c0d5d2dc6c44f2385d58a75fb9e9936" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Media" Id="c188eb1088be10048dceb097165a0203" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="News media" Id="5ff9bff08a8f100487e09a38be1dd83e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Freedom of speech" Id="d4ebc78085ae10048bef9a5aeba5fb06" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Human rights and civil liberties" Id="008e219885ab10048110ff2260dd383e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Social issues" Id="08680bf085af10048c4f9a5aeba5fb06" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Social affairs" Id="75a42fd87df7100483eedf092526b43e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Environment and nature" Id="8783d248894710048286ba0a2b2ca13e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Land management" Id="1f314f095a044a71891bfb572291878f" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Natural resource management" Id="a5edca4887aa10048442957095691f3e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Environment" Id="38284d5088e8100485efba0a2b2ca13e" />
+			<apcm:SubjectClassification Authority="AP Subject"
+				Value="Land environment" Id="f1b2cc4087a9100482e0957095691f3e" />
+			<apcm:AudienceClassification Authority="AP Audience"
+				Value="Online" Id="9add4649b53b4702ba7d9de5d4fa607a">
+				<apcm:Property Id="B6F34A252AF74F0EBCD885E6AC1057BE"
+					Name="AudienceType" Value="AUDPLATFORM" />
+			</apcm:AudienceClassification>
+			<apcm:AudienceClassification Authority="AP Audience"
+				Value="Print" Id="82c6a4c46fa0446090a7acaf93159e4c">
+				<apcm:Property Id="B6F34A252AF74F0EBCD885E6AC1057BE"
+					Name="AudienceType" Value="AUDPLATFORM" />
+			</apcm:AudienceClassification>
+			<apcm:AudienceClassification Authority="AP Audience"
+				Value="State" Id="f5b16ea8760d10048047e6e7a0f4673e">
+				<apcm:Property Id="317C913CF4AA4C5AB9DB610C250B8810"
+					Name="AudienceType" Value="AUDSCOPE" />
+			</apcm:AudienceClassification>
+			<apcm:AudienceClassification Authority="AP Audience"
+				Value="National" Id="f43adc08760d10048040e6e7a0f4673e">
+				<apcm:Property Id="317C913CF4AA4C5AB9DB610C250B8810"
+					Name="AudienceType" Value="AUDSCOPE" />
+			</apcm:AudienceClassification>
+			<apcm:AudienceClassification Authority="AP Audience"
+				Value="Washington" Id="08A0A00882C810048942DF092526B43E">
+				<apcm:Property Id="3446BF8C410D49E59C0A017D8C49F74A"
+					Name="AudienceType" Value="AUDGEOGRAPHY" />
+			</apcm:AudienceClassification>
+			<apcm:AudienceClassification Authority="AP Audience"
+				Value="Idaho" Id="1885B7F082B01004835EDF092526B43E">
+				<apcm:Property Id="3446BF8C410D49E59C0A017D8C49F74A"
+					Name="AudienceType" Value="AUDGEOGRAPHY" />
+			</apcm:AudienceClassification>
+			<apcm:AudienceClassification Authority="AP Audience"
+				Value="Oregon" Id="FE016FE882C61004886ADF092526B43E">
+				<apcm:Property Id="3446BF8C410D49E59C0A017D8C49F74A"
+					Name="AudienceType" Value="AUDGEOGRAPHY" />
+			</apcm:AudienceClassification>
+			<apcm:AudienceClassification Authority="AP Audience"
+				Value="United States" Id="661E48387D5B10048291C076B8E3055C">
+				<apcm:Property Id="3446BF8C410D49E59C0A017D8C49F74A"
+					Name="AudienceType" Value="AUDGEOGRAPHY" />
+			</apcm:AudienceClassification>
+			<apcm:ItemContentType>Spot Development</apcm:ItemContentType>
+			<apcm:Source>AP</apcm:Source>
+			<apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:product:32537"
+				Value="AP Online Other Entertainment News" />
+			<apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:product:41664"
+				Value="AP Top News" />
+			<apcm:Property Name="EntitlementMatch" Id="urn:publicid:ap.org:product:42429"
+				Value="AP Top News - Entertainment - Stories" />
+			<apcm:Property Name="EntitlementMatch"
+				Id="urn:publicid:ap.org:package:100518" Value="AP Top News Package" />
+			<apcm:Property Name="EntitlementMatch"
+				Id="urn:publicid:ap.org:package:100276" Value="AP Online - Entertainment" />
+			<apcm:Property Name="SequenceNumber" Value="InSequence"
+				Id="306842135" />
+			<apcm:FirstCreated>2014-09-26T00:47:08Z</apcm:FirstCreated>
+		</apcm:ContentMetadata>
+		<apnm:NewsManagement xmlns:apnm="http://ap.org/schemas/03/2005/apnm">
+			<apnm:ManagementId>urn:publicid:ap.org:84bc4616255346e39fc3bc4b8d7eaf38
+			</apnm:ManagementId>
+			<apnm:ManagementSequenceNumber>6</apnm:ManagementSequenceNumber>
+			<apnm:PublishingStatus>Usable</apnm:PublishingStatus>
+			<apnm:PublishingSpecialInstructions>Eds: Expands with details,
+				restores background.</apnm:PublishingSpecialInstructions>
+			<apnm:PublishingReleaseDateTime>2014-09-26T00:47:02Z
+			</apnm:PublishingReleaseDateTime>
+			<apnm:LegacyNewsManagement>
+				<apnm:LegacyType>ANPA1312+NAA89-3</apnm:LegacyType>
+				<apnm:LegacyManagementType Value="Lead">
+					<apnm:TypeSupportingData DataType="LeadNumber">5
+					</apnm:TypeSupportingData>
+				</apnm:LegacyManagementType>
+			</apnm:LegacyNewsManagement>
+		</apnm:NewsManagement>
+	</entry>
+</feed>

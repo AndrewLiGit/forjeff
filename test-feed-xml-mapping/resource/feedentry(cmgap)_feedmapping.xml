@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<xml-bindings
+    xmlns="http://www.eclipse.org/eclipselink/xsds/persistence/oxm"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    version="2.3"
+    package-name="com.endplay.feeds.jobs.dto"
+    xml-mapping-metadata-complete="true">
+    
+     <xml-schema
+        namespace="http://www.w3.org/2005/Atom"
+        element-form-default="QUALIFIED">
+        <xml-ns prefix="apcm" namespace-uri="http://ap.org/schemas/03/2005/apcm"/>
+        <xml-ns prefix="apnm" namespace-uri="http://ap.org/schemas/03/2005/apnm"/>
+        <xml-ns prefix="georss" namespace-uri="http://www.georss.org/georss"/>
+        <xml-ns prefix="o" namespace-uri="http://w3.org/ns/odrl/2/"/>
+        <xml-ns prefix="e" namespace-uri=""/>
+    </xml-schema>
+    <java-types>
+        <java-type name="FeedEntry">
+            <xml-virtual-access-methods set-method="put"/>
+            <xml-root-element name="feed" />
+            <java-attributes>
+ <!-- InBoundWireFeedDTO -->
+                <xml-element java-attribute="id" name="id"/>
+                <xml-attribute java-attribute="lastRetrivedArticleId" xml-path="apcm:Property[@Name='FeedProperties']/apcm:Property[@Name='FeedSequencing']/apcm:Property[@Name='sequenceNumber']/@Id"/>
+                <xml-element java-attribute="updated" xml-path="apcm:Property[@Name='FeedProperties']/apcm:Property[@Name='FeedSequencing']/apcm:Property[@Name='minDateTime']/@Value"/>
+                <xml-element java-attribute="entries" name="entry" type="com.endplay.feeds.jobs.dto.FeedEntry" container-type="java.util.ArrayList"/>
+                
+                <!-- FeedEntry -->
+
+                
+                
+            <xml-element java-attribute="bodyAsParagraphs" name="content/e:nitf/e:body/e:body.content/e:block[@id='Main']/e:p" type="java.lang.String" container-type="java.util.ArrayList" />
+                
+                
+                <xml-transformation java-attribute="byLine">
+                    <xml-read-transformer transformer-class="com.endplay.feeds.jobs.transformer.MultiStringTransformer"/>
+                    <xml-write-transformer xml-path="content/e:nitf/e:body/e:body.head/e:byline/text()" transformer-class="com.endplay.feeds.jobs.transformer.MultiStringTransformer"/>
+                    <xml-write-transformer xml-path="content/e:nitf/e:body/e:body.head/e:byline/e:byttl/text()" transformer-class="com.endplay.feeds.jobs.transformer.MultiStringTransformer"/>
+                </xml-transformation>
+                <xml-element java-attribute="catCollection" xml-path="apcm:ContentMetadata/apcm:SubjectClassification[@Authority='AP Category Code']/@Value" type="java.lang.String" container-type="java.util.ArrayList"/>
+                <xml-element java-attribute="keywords" xml-path="apcm:ContentMetadata/apcm:Keywords/text()"/>
+                <xml-element java-attribute="author" xml-path="author/name/text()"/>
+                <xml-element java-attribute="status" xml-path="apcm:Signal/text()"/>
+                <xml-element java-attribute="title" name="title"/>
+                <xml-element java-attribute="copyright" name="rights"/>
+                <xml-element java-attribute="publishedDate" name="published"/>
+                <xml-element java-attribute="images" name="content/e:nitf/e:body/e:body.content/e:media" type="com.endplay.feeds.jobs.dto.FeedEntry" container-type="java.util.ArrayList"/>
+                
+                <!-- ImageEntry -->
+                <xml-element java-attribute="location" xml-path="e:media-reference[@name='AP Photo']/@source" type="java.lang.String"/>
+                <xml-element java-attribute="fileName" xml-path="e:media-metadata[@name='OriginalFileName']/@value" type="java.lang.String" />
+                <xml-element java-attribute="format" xml-path="e:media-reference[@name='AP Photo']/@mime-type" type="java.lang.String" />
+                <xml-transformation java-attribute="caption">
+                    <xml-read-transformer transformer-class="com.endplay.feeds.jobs.transformer.NodeSerializeTransformer"/>
+                    <xml-write-transformer xml-path="e:media-caption/e:p/text()" transformer-class="com.endplay.feeds.jobs.transformer.NodeSerializeTransformer"/>
+                </xml-transformation>
+                <xml-element java-attribute="photographer" xml-path="e:media-producer/text()"/>
+            </java-attributes>
+        </java-type>
+    </java-types>
+</xml-bindings>

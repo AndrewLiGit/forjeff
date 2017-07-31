@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Firefox 2.0 and Internet Explorer 7 use simplistic feed sniffing to override desired
+presentation behavior for this feed, and thus we are obliged to insert this comment, a
+bit of a waste of bandwidth, unfortunately. This should ensure that the following
+stylesheet processing instruction is honored by these new browser versions. For some more
+background you might want to visit the following bug report:
+https://bugzilla.mozilla.org/show_bug.cgi?id=338621
+-->
+<feed xmlns="http://www.w3.org/2005/Atom">
+      <title>WENN News</title>
+      <id>http://www.wenn.com/</id>
+      <link rel="self" href="http://www.wenn.com/"/>
+      <updated>2014-09-22T13:41:02+01:00</updated>
+      <author>
+    <name>WENN Newsdesk</name>
+    <email>newsdesk@wenn.com</email>
+      </author>
+
+      <entry>
+         <title>Demi Lovato injures arm in pre-concert fall</title>
+         <id>wenncps_1353011</id>
+         <author><name>(LR/WNWCGC/ZN)</name></author>
+         <category term="Entertainment"/>
+             <content type="html"><![CDATA[<p>DEMI LOVATO is sporting a sling after injuring her arm in a fall shortly before she was due on stage in Texas.</p>
+<p>The pop star shared a picture of her arm in a protective sling on Twitter.com before her gig in San Antonio on Friday (19Sep14), writing, &quot;Welp. Looks like I won&#039;t be playing guitar, piano OR drums tonight. San Antonio... Why did you have to go and make me fall so hard for you?!! (sic)&quot;</p>
+<p>The snap sparked fears Lovato had suffered a nasty break which would take months to heal, but a representative for the star has now confirmed the injury is not that serious, telling Gossipcop.com, &quot;She fell and hurt her arm, but it&#039;s not broken.&quot;</p>
+]]></content>
+        <updated>2014-09-22T13:41:02+01:00</updated>
+    <image>http://feed.wenn.com/scripps/wenn21641484_5_2175_1.jpg</image>
+      </entry>
+
+      
+</feed>
